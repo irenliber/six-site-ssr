@@ -1,0 +1,97 @@
+body {
+  font-family: 'Circular', 'Helvetica', 'Arial', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.2;
+  font-family: 'Circular', 'Helvetica', 'Arial', sans-serif !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.page {
+  min-height: 100vh;
+}
+
+.page-content {
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.page .page-gray-background {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 588px;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+
+/*---------------------------------
+    2. Colors
+----------------------------------*/
+
+.color-gray {
+  color: #7f7f7f;
+}
+
+
+/*---------------------------------
+    3. Fonts
+----------------------------------*/
+
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text-12 {
+  font-size: 12px;
+}
+
+.text-16 {
+  font-size: 16px;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.weight-bold {
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url('/static/fonts/Circular-Std/CircularStd-Book.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url('/static/fonts/Circular-Std/CircularStd-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Circular';
+  src: url('/static/fonts/Circular-Std/CircularStd-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}

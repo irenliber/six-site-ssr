@@ -1,0 +1,22 @@
+.footer {
+  border-top: 1px solid #efefef;
+  padding-top: 20px;
+}
+
+.footer .footer-link {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer .footer-link a {
+  color: #999999;
+  transition: all 0.3s linear;
+}
+
+.footer .footer-link:hover a {
+  color: grey;
+}
+
+.footer .footer-bottom {
+  font-size: 12px;
+}

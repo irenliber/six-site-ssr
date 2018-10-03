@@ -1,0 +1,21 @@
+.arrow-link {
+  cursor: pointer;
+}
+
+.arrow-link .arrow-left {
+  margin-right: 8px;
+  transition: all 0.3s linear;
+}
+
+.arrow-link:hover .arrow-left {
+  margin-right: 13px;
+}
+
+.arrow-link .arrow-right {
+  margin-left: 8px;
+  transition: all 0.3s linear;
+}
+
+.arrow-link:hover .arrow-right {
+  margin-left: 13px;
+}

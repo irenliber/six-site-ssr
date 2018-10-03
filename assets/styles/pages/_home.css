@@ -1,0 +1,45 @@
+.home .top-right-content {
+  max-width: 420px;
+}
+
+.home h1 {
+  font-size: 48px;
+  letter-spacing: 0.1px;
+  margin-top: 64px;
+  margin-bottom: 30px;
+}
+
+.home .desc {
+  letter-spacing: 0.1px;
+}
+
+.home .app-store-img {
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.phone-input-group .input {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  background-color: #efefef;
+  border: none;
+  height: 40px;
+  padding: 0 16px;
+  width: 70%;
+}
+
+.phone-input-group input::placeholder {
+  font-size: 18px;
+}
+
+.phone-input-group .phone-input-btn {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  background-color: #efefef;
+  height: 40px;
+  padding: 0 16px;
+  width: 30%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
