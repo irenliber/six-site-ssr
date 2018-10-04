@@ -23,14 +23,14 @@ import Head from 'next/head'
 
 class Index extends React.Component {
   static getInitialProps ({ reduxStore, req }) {
-    const isServer = !!req
+    // const isServer = !!req
     // reduxStore.dispatch(serverRenderClock(isServer))
 
     return {}
   }
 
   componentDidMount () {
-    const {dispatch} = this.props
+    // const {dispatch} = this.props
     // dispatch(getHotel())
   }
 
@@ -97,7 +97,7 @@ class Index extends React.Component {
                   </div>
                 </Col>
                 <Col xs="12" sm="12" md="6" lg="4" className="pt-2 text-center">
-                  <img src={gif} width="100%" className="mt-5 six-hotels-gif" alt="Six Hotels"/>
+                  <img src={gif} className="mt-5 six-hotels-gif" alt="Six Hotels"/>
                 </Col>
               </Row>
             </Container>
