@@ -25,7 +25,6 @@
   border: none;
   height: 40px;
   padding: 0 16px;
-  width: 70%;
 }
 
 .phone-input-group input::placeholder {
@@ -38,8 +37,37 @@
   background-color: #efefef;
   height: 40px;
   padding: 0 16px;
-  width: 30%;
   font-weight: bold;
   cursor: pointer;
+}
+
+.six-hotels-gif {
+  max-width: 320px;
+}
+
+@media (max-width: 450px) {
+  .home h1 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+
+  .page .page-gray-background {
+    height: 610px;
+  }
+
+  .phone-input-group .phone-input-btn {
+    padding: 0 10px 0 5px;
+  }
+
+  .phone-input-group .input {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home .top-right-content {
+    max-width: 420px;
+    margin: auto;
+  }
 }
 

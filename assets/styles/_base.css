@@ -34,6 +34,7 @@ input:focus {
   position: absolute;
   z-index: 0;
   top: 0;
+  min-width: 320px;
 }
 
 .cursor-pointer {
