@@ -22,12 +22,12 @@ import Head from 'next/head'
 
 
 class Index extends React.Component {
-  static getInitialProps ({ reduxStore, req }) {
+  // static getInitialProps ({ reduxStore, req }) {
     // const isServer = !!req
     // reduxStore.dispatch(serverRenderClock(isServer))
 
-    return {}
-  }
+    // return {}
+  // }
 
   componentDidMount () {
     // const {dispatch} = this.props
@@ -70,6 +70,9 @@ class Index extends React.Component {
                       <ArrowLink class="text-12" bold text="EXPLORE SIX"/>
                     </div>
                     <div>&nbsp;</div>
+                    <div className="d-block d-md-none d-lg-none mb-5 text-center">
+                      <img src={gif} className="mt-3 six-hotels-gif" alt="Six Hotels"/>
+                    </div>
                     <div className="d-inline-flex align-items-center mt-1 mb-4 cursor-pointer">
                       <img src={gift} width={20} className="mr-3" alt="Gift"/>
                       <span className="weight-bold text-14 pt-1">FREE NIGHTS. FREE BREAKFAST.</span>
@@ -96,7 +99,7 @@ class Index extends React.Component {
                     <div className="color-gray text-12">Standard text message rates may apply.</div>
                   </div>
                 </Col>
-                <Col xs="12" sm="12" md="6" lg="4" className="pt-2 text-center">
+                <Col xs="12" sm="12" md="6" lg="4" className="d-none d-sm-none d-md-block d-lg-block d-lg-none pt-2 text-center">
                   <img src={gif} className="mt-5 six-hotels-gif" alt="Six Hotels"/>
                 </Col>
               </Row>

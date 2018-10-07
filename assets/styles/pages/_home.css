@@ -72,3 +72,9 @@
   }
 }
 
+@media (min-width: 377px) and (max-width: 450px) {
+  .page .page-gray-background {
+    height: 540px;
+  }
+}
+
